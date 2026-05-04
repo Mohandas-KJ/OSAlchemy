@@ -47,5 +47,9 @@ int waitForAudioService(){
 }
 
 int main(){
+    waitForAudioService();
+
+    PlaySound(TEXT("C:\\JarvisS\\Jarvis_Intro.wav"),NULL,SND_FILENAME | SND_SYNC);
+
     return 0;
 }
